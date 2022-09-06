@@ -1,0 +1,80 @@
+body{height:6000px;}
+
+span{
+  background-color: purple;
+  color: white;
+  padding:10px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+main {
+  color: purple;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.calc{
+  height: 2000px;
+  width: 100%;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 200px;
+}
+
+.mid{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+}
+.main-btn {
+  width: 200px;
+  background-color: purple;
+  margin-right: 40px;
+  font-size: 24px;
+  color: white;
+}
+
+#purple-rec{
+    background-color: purple;
+    width: 430px;
+    height:400px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.left-nav{
+  width: 0%;
+  height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  background-color: black;
+}
+
+.left-nav a{
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script task 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- start of part 1 -->
+    <div id="left-nav" class="left-nav">
+      <a href="#" class="close-btn" onclick="closeNav()"> &times;</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a><a href="#">Products</a>
+    </div>
+    <span onclick="openNav()"> Open Navigation Bar</span>
+    <main>Average of Numbers Calculator (part 1)</main>
+    <section class="calc">
+      <div class="numbers">
+        <h3>The Average number of:</h3>
+        <p>10, 13, 25, 33, 45, 13, 33, 51, 88, 94, 85</p>
+        <button onclick="showResult()">The result</button>
+        <h4 id="result-num"></h4>
+      </div>
+      <!-- end of part 1 -->
+      <hr />
+      <!-- start of part 2 -->
+      <div class="mid">
+        <div class="buttons">
+          <button class="main-btn" onclick="showMe()">Go Public</button>
+          <button class="main-btn" onclick="hideMe()">Hide Me</button>
+        </div>
+        <div id="purple-rec"></div>
+        <div class="my-clock">
+            <h3>My Clock</h3>
+            <h1 style="color: purple; font-size: 50px;" id="clock" onload="displayTime()"></h1>
+        </div>
+      </div>
+      <!-- end of part 2 -->
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
